@@ -79,7 +79,6 @@
     cursor: pointer;
 }
 
-
 .WhenContainer, .PropertyTypeContainer{
     border-left: 1px solid rgba(0, 0, 0, 0.2);
     border-right: 1px solid rgba(0, 0, 0, 0.2);
@@ -113,4 +112,15 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 30px;
+}
+
+.PropertyLists_short{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+}
+.PropertyLists_short .CardContainer{
+
+    margin-right: 50px;
 }
