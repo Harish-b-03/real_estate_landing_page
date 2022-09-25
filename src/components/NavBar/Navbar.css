@@ -1,0 +1,88 @@
+.NavBar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 5%;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 70px;
+    z-index: 999;
+    border-bottom: 1px solid rgba(230, 230, 230, 0.8);
+}
+
+.NavBarLeft{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    /* background-color: beige; */
+}
+
+.NavBarButton{
+    height: 35px;
+    width: 60px;
+    margin-right: 10px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.active{
+    color: blueviolet;
+    background-color: rgba(230, 230, 230, 0.8);
+    font-weight: 500;
+}
+
+.NavBarSelect{
+    height: 35px;
+    width: fit-content;
+    padding: 0 0px;
+    margin-right: 25px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.75);
+    background-color: white;
+    cursor: pointer;
+}
+
+.NavBarLogo{
+    margin-right: 60px;
+    color: rgb(70, 2, 134);
+}
+
+.NavBarRight{
+    display: flex;
+    align-items: center;
+}
+
+.Login, .SignUp{
+    width: 80px;
+    height: 36px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.Login{
+    background-color: white;
+    border: 1px solid lightgrey;
+    color: blueviolet;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.SignUp{
+    background-color: blueviolet;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 500;
+}

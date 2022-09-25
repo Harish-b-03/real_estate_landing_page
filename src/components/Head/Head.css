@@ -1,0 +1,116 @@
+.HeadContainer{
+    position: fixed;
+    height: calc(100vh - 70px);
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(230, 230, 230, 0.3);
+    margin-top: 70px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0 13%;
+}
+
+.layer1{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.Heading{
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.SearchInput{
+    height: 35px;
+    width: 175px;
+    padding: 0 10px;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    background-color: white;
+    outline: none;
+    color: rgb(58, 11, 102);
+    font-weight: 600;
+}
+
+.FilterSectionContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    /* overflow: scroll; */
+}
+
+.FilterSectionContainer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 20px;
+    height: 45px;
+}
+.LocationContainer{
+    flex: 2.4;
+}
+.WhenContainer{
+    flex: 3;
+}
+.PriceContainer{
+    flex: 2.4;
+}
+.PropertyTypeContainer{
+    flex: 2.4;
+}
+.SearchButtonContainer{
+    flex: 1.8;
+}
+.Location, .When, .Price, .PropertyType{
+    background-color: white;
+    padding: 0;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.WhenContainer, .PropertyTypeContainer{
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.Label{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.45);
+    font-weight: 600;
+    margin-left: 4px;
+}
+
+.SearchButton{
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    background-color: blueviolet;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.PropertyLists{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}

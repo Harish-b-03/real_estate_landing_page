@@ -1,0 +1,178 @@
+.CardContainer{
+    width: 280px;
+    height: 310px;
+    border-radius: 10px;
+    overflow: visible;
+    margin-bottom: 35px;
+    background-color: white;
+    padding: 0;
+    position: relative;
+    z-index: 99;
+}
+
+.PropertyImageContainer{
+    width: 100%;
+    height: 45%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+}
+.PropertyImage{
+    width: 100%;
+    height: 100%;
+}
+
+.PropertyDetails{
+    height: 55%;
+    padding: 0 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Rent{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: 600;
+}
+.RentLabel{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.PropertyNameContainer{
+    margin: 10px 0;
+}
+.PropertyName{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.LocationArea, .LocationState{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.details{
+    margin-bottom: 10px;
+    padding: 0 2px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    font-weight: 500;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.crossmark{
+    font-size: 11px;
+}
+
+.PopularTagContainer{
+    position: absolute;
+    top: 40%;
+    left: -8px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    padding-right: 15px;
+    font-size: 11px;
+    font-weight: 500;
+    font-stretch: expanded;
+    color: white;
+    z-index: 999;
+}
+
+.PopularIcon{
+   scale: .6;
+   transform: rotate(180deg);
+   margin-right: 1px;
+   /* background-color: black; */
+}
+
+.CardContainer::before{
+    content: "";
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    background-color: rgb(53, 0, 103);
+    top: 141px;
+    left: -4px;
+    transform: rotate(50deg);
+    z-index: 0;
+}
+.CardContainer::after{
+    content: "";
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    background-color: white;
+    top: 144px;
+    left: 0px;
+    z-index: 0;
+}
+
+.details div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BedIcon, .BathTubIcon, .DimensionIcon{
+    margin-right: 6px;
+}
+.BedIcon{
+    height: 15px;
+    width: 15px;
+}
+.BathTubIcon{
+    height: 20px;
+    width: 18px;
+}
+.DimensionIcon{
+    height: 13px;
+    width: 13px;
+    transform: rotate(130deg);
+    scale: 0.85;
+    margin-top: 4px;
+}
+
+.LikeButtonContainer, .LikedButtonContainer{
+    position: absolute;
+    right: 20px;
+    top: 52%;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.LikeButtonContainer{
+    border: 1px solid lightgrey;
+}
+
+.LikedButtonContainer{
+    border: 1px solid rgba(138, 43, 226, 0.6);
+}
+
+.LikeButton{
+    color: blueviolet;
+    scale: 0.85;
+}
+
+.liked{
+    border: 1px solid blueviolet    ;
+}
